@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+       <div style="background-color: rgb(136, 133, 133); width:556px;height: 195px;clear: both;">
+          <h1>Simple calculator using Switch case</h1>
+        <input  style="border-radius: 15px;padding: 15px; border: rgb(16, 16, 233) 2px solid;" type="text"  id="ain" value="">
+        <select style="border-radius: 15px;padding: 15px; border: rgb(15, 15, 226) 2px solid;" id="cin">
+            <option value="+">Addition +</option>
+            <option value="-">Subtraction -</option>
+            <option value="*">Multiplication *</option>
+            <option value="/">Division /</option>
+            <option value="%">Moduler %</option>
+        </select>
+        <input style="border-radius: 15px;padding: 15px; border: rgb(15, 15, 214) 2px solid;" type="text" id="bin" value="">
+        <br>
+        
+        <button style="text-align: center;color: white; margin-left:245px; width: 75px ;height:35px;background-color:rgba(134, 57, 57, 0.815)" onclick="calculator()">Solve</button>
+    </br>
+    <span style="width: 100%;text-align: center;" id="enable"></span>
+       </div>
+
+    <div style="width: 556px;height: auto;text-align: center;clear: both;background-color: cadetblue;">
+        <h1>Factorial using while </h1>
+        <input style="border-radius: 15px;padding: 15px; border: rgb(16, 16, 233) 2px solid;" type="text" placeholder="*Enter the factorial value" id="facto">
+        <button onclick="factorial()" style="text-align: center;color: white; margin-left:245px; width: 75px ;height:35px;background-color:rgba(134, 57, 57, 0.815)">Click</button>
+    <span id="fact"></span>
+    </div>
+
+
+<div style="width: 556px;height: auto;text-align: center;clear: both;background-color: cadetblue;"> 
+   <h1>fabonacci series using for </h1>
+    <input style="border-radius: 15px;padding: 15px; border: rgb(16, 16, 233) 2px solid;" type="text"id="fabonacci-i">
+    <h1 id="fabonacci-s"></h1>
+    <p id="fab"> </p>
+  <button style="text-align: center;color: white;width: 75px ;height:35px;background-color:rgba(134, 57, 57, 0.815)" onclick="fibonacci()">Click</button>
+</div>
+
+<div style="width: 556px;height: auto;text-align: center;clear: both;background-color: cadetblue;">
+    <h1>Leap year using if else </h1>
+    <input style="border-radius: 15px;padding: 15px; border: rgb(16, 16, 233) 2px solid;" type="text" id="leapyear">
+    <button style="text-align: center;color: white;width: 75px ;height:35px;background-color:rgba(134, 57, 57, 0.815)" onclick="leap()">Click</button>
+    <h1 id="year" ></h1>
+</div>
+
+        <script type="text/javascript" src="javascript.js"></script>
+    </body>
+</html>
