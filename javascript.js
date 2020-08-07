@@ -9,7 +9,7 @@ function calculator() {
  switch(c)
    {
     case ("+") : 
-    c= a+=b; 
+    c=+a+ +b; 
     document.getElementById("enable").innerHTML= "Answer is "+ c;
     break;     
     case ("-") : 
